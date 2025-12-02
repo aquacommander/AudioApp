@@ -1,0 +1,74 @@
+# C++ Build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files (too large for git)
+models/
+*.onnx
+*.ckpt
+*.safetensors
+*.bin
+*.pth
+*.pt
+
+# ONNX Runtime (downloaded separately)
+third_party/onnxruntime-*/
+
+# Output files
+output.wav
+generated_*.wav
+*.wav
+*.mp3
+*.flac
+examples/*.wav
+examples/*.mp3
+generated_audio/
+
+# Logs
+logs/
+*.log
+
+# Hugging Face cache (for model conversion)
+.cache/
+.huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+metadata_*.json
+test_outputs/
+
+# Mobile builds
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/ios/build/
+mobile/ios/Pods/
+*.apk
+*.ipa
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+!CMakeLists.txt

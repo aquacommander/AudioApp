@@ -1,8 +1,7 @@
-# Stable Audio Generation - Milestone 1
-
+# Stable Audio Generation 
 A fully cross-platform audio generation system using Stability AI's Stable Audio Open (small) model. This project generates musical loops from text prompts using **C++ and ONNX Runtime** for true native performance on Windows, macOS, Linux, Android, and iOS.
 
-## 🎯 Milestone 1 Objectives
+## 🎯 Project Objectives
 
 - ✅ Load `stabilityai/stable-audio-open-small` model locally via ONNX Runtime
 - ✅ Generate playable WAV files from text prompts

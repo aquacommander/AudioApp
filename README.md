@@ -19,8 +19,6 @@ This project uses **C++ with ONNX Runtime** for cross-platform compatibility:
 - **Build**: CMake for all platforms
 - **Deployment**: Native binaries (no Python runtime needed)
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed architecture documentation.
-
 ## 📋 Prerequisites
 
 - **CMake 3.18+**

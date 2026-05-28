@@ -214,6 +214,3 @@ For issues or questions:
 
 ---
 
-**Milestone 1 Status**: ✅ C++/ONNX architecture complete, ready for model integration and testing
-
-**For detailed build instructions, see [BUILD.md](BUILD.md)**

@@ -147,8 +147,7 @@ To verify Milestone 1 is working:
 3. ✅ Generate test audio: `./stable_audio_cli --model models/stable_audio.onnx --prompt "test"`
 4. ✅ Verify `output.wav` is created and plays correctly
 
-See [verification.md](verification.md) for detailed acceptance criteria.
-
+See [verification.md](verification.md) for detailed acceptance criteria
 ## 📖 Documentation
 
 - **[BUILD.md](BUILD.md)** - Detailed build instructions for all platforms
